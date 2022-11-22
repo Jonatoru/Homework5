@@ -49,5 +49,48 @@ public class Main {
         int deliveryDistance = 95;
         int timeOfDelivery = 1 + (deliveryDistance + 19) / 40;
         System.out.println("Потребуется дней для доставки: " + timeOfDelivery);
+
+        System.out.println("Задание 5");
+        int monthNumber = 5;
+        switch (monthNumber){
+            case 1:
+                System.out.println("На улице зима.");
+                break;
+            case 2:
+                System.out.println("На улице зима.");
+                break;
+            case 3:
+                System.out.println("На улице весна.");
+                break;
+            case 4:
+                System.out.println("На улице весна.");
+                break;
+            case 5:
+                System.out.println("На улице весна.");
+                break;
+            case 6:
+                System.out.println("На улице лето.");
+                break;
+            case 7:
+                System.out.println("На улице лето.");
+                break;
+            case 8:
+                System.out.println("На улице лето.");
+                break;
+            case 9:
+                System.out.println("На улице осень.");
+                break;
+            case 10:
+                System.out.println("На улице осень.");
+                break;
+            case 11:
+                System.out.println("На улице осень.");
+                break;
+            case 12:
+                System.out.println("На улице зима.");
+                break;
+            default:
+                System.out.println("Такого месяца нет.");
+        }
     }
 }
